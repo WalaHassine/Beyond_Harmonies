@@ -134,7 +134,7 @@ export class Model extends EventEmitter {
 				} catch (e){
 					throw new Error('could not load file.')
 				}
-				if (buffer.duration > 30){
+				if (buffer.duration >= 30){
 					throw new Error('audio file must be under 30 seconds long.')
 				}
 				const fetchResponse = await fetch(url)

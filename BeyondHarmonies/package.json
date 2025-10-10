@@ -6,7 +6,6 @@
     "build": "webpack",
     "start": "npm run build && http-server"
   },
-
   "author": "Wala Hassine",
   "license": "GPL-3",
   "devDependencies": {
@@ -44,6 +43,12 @@
     "webmidi": "^2.2.0",
     "webpack": "^4.17.1",
     "webpack-cli": "^3.1.0",
-    "whatwg-fetch": "^2.0.4"
+    "whatwg-fetch": "^2.0.4",
+    "@types/bun": "latest"
+  },
+  "module": "index.ts",
+  "type": "module",
+  "peerDependencies": {
+    "typescript": "^5.0.0"
   }
 }

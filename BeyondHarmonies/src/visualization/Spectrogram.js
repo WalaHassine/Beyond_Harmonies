@@ -1,8 +1,5 @@
 
-import { FFT } from 'tone'
 import { SpectrumBar } from './SpectrumBar'
-import { amp2Color } from '../data/Color'
-import { scaleFreq, freqInRange } from '../data/Position'
 import { Visualization } from './Visualization'
 import { SpectrogramTail } from './SpectrogramTail'
 import { Grid } from './Grid'
